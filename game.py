@@ -1,11 +1,12 @@
 import os
+from graphics import logo
 
-os.system("cls")
+os.system("cls"), logo()
 
 
 
 def family_room():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "You are in the family room."
     print "There is a piano, a fireplace, table, couch and TV."
@@ -27,7 +28,7 @@ def family_room():
         family_room()
 
 def back_room():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "This is where homeless stuff goes."
     print "This house is 'homeless friendly'."
@@ -39,7 +40,7 @@ def back_room():
     hallway()
 
 def porch():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "The porch is the best place to view Robert Ettleman's front door."
     print "It's been reported that the door was in fact, stolen from him."
@@ -61,7 +62,7 @@ def porch():
         porch()
 
 def patio():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "The covered patio is filled with awesome computers and electronics."
     print "It's where the great computer scientist, Tom Kelly, creates greatness."
@@ -84,7 +85,7 @@ def patio():
         patio()
 
 def street():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "LOOK OUT! "
     print "There is Peter Carlson and Coral Weston!"
@@ -96,7 +97,7 @@ def street():
     front_yard()
 
 def laundry_room():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "This laundry room is filled with clothes and laundry items."
     print "There is piss on the floor from Jack."
@@ -119,7 +120,7 @@ def laundry_room():
 
 
 def bathroom():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "Yup, it's a bathroom."
     print "There is piss on the ground from Jack."
@@ -131,7 +132,7 @@ def bathroom():
     hallway()
 
 def kitchen():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "The kitchen is kinda small but it's got everything you need."
     print "From here you can see the laundry room and the front door in the family room to the right."
@@ -154,7 +155,7 @@ def kitchen():
 
 
 def front_yard():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "The front yard looks nice, Manny always keeps the lawn cut."
     print "You can see your house and you like it."
@@ -183,7 +184,7 @@ def front_yard():
         front_yard()
 
 def  hallway():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "You are in a small hallway."
     print "You can go to the kitchen, bathroom or back room from here."
@@ -207,7 +208,7 @@ def  hallway():
 
 
 def side_house():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "You are outside on the side of the house."
     print "there is an air conditioning unit and an old meat smoker here."
@@ -229,7 +230,7 @@ def side_house():
 
 
 def bedroom():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
     print "You are in your bedroom."
     print "There is a door on the right."
@@ -252,17 +253,17 @@ def bedroom():
 
 
 def lazy():
-    os.system("cls")
+    os.system("cls"), logo()
     print ""
-    print "Yeah, getting up would take too much energy."
-    print "Press enter when you are ready."
-    print ""
-    print "(Enter)"
+    print "Yeah, getting up would take too much energy.\n"
+    print "Press enter when you are ready.\n\n"
+    print "(Enter)\n\n"
     raw_input("> ")
     start()
 
 def start():
-    os.system("cls")
+    os.system("cls"), logo()
+
     print""
     print "You are chilling out at home, laying on your bed.\n"
     print "The Bravo Network is on TV.\n"
@@ -281,8 +282,9 @@ def start():
         lazy()
     else:
         print "\n"
-        print "Can't you read? I said (y/n)!"
-        print "Press enter when you are ready"
+        print "Can't you read? I said (y/n)!\n"
+        print "Press enter when you are ready\n\n"
+        print "(Enter)\n\n"
         raw_input("> ")
         start()
 
