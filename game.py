@@ -264,22 +264,15 @@ def lazy():
 def start():
     os.system("cls")
     print""
-    print "You are chilling out at home, laying on your bed."
-    print""
-    print "The Bravo Network is on TV."
-    print""
+    print "You are chilling out at home, laying on your bed.\n"
+    print "The Bravo Network is on TV.\n"
     print "You're husband, Tom, is next to you on the bed programming on " \
-          "his computer as usual."
-    print""
-    print "There are three puppies on the bed: Jill, Jack and Jet."
-    print""
-    print "The fourth puppy, Dodo, is missing!"
-    print""
-    print "Do you want to get up and find her? "
-    print ""
-    print "(y/n)"
+          "his computer as usual.\n"
+    print "There are three puppies on the bed: Jill, Jack and Jet.\n"
+    print "The fourth puppy, Dodo, is missing!\n"
+    print "Do you want to get up and find her? \n\n"
+    print "(y/n)\n\n"
 
-    print ""
     choice = raw_input("> ")
 
     if choice == "y":
@@ -287,7 +280,7 @@ def start():
     elif choice == "n":
         lazy()
     else:
-        print ""
+        print "\n"
         print "Can't you read? I said (y/n)!"
         print "Press enter when you are ready"
         raw_input("> ")
