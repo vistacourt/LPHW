@@ -28,8 +28,8 @@ def family_room():
 def back_room():
     os.system("cls"), logo()
     print ""
-    print "This is where homeless stuff goes."
-    print "This house is 'homeless friendly'."
+    print "This is where homeless items from around the house goes."
+    print "This house is 'homeless item friendly'."
     print "Unless you are looking for something other than Dodo, you should leave."
     print "Press Enter to leave now."
     print ""
@@ -96,14 +96,11 @@ def street():
 
 def laundry_room():
     os.system("cls"), logo()
-    print ""
-    print "This laundry room is filled with clothes and laundry items."
-    print "There is piss on the floor from Jack."
-    print "You can see the covered patio outside and the kitchen is behind you."
-    print ""
-    print "(patio/kitchen)?"
-
-    print ""
+    print "\n"
+    print "This laundry room is filled with clothes and laundry items.\n"
+    print "There is piss on the floor from Jack\n"
+    print "You can see the covered patio outside and the kitchen is behind you.\n"
+    print "(patio/kitchen)?\n"
     choice = raw_input("> ")
 
     if choice == "patio":
@@ -111,34 +108,34 @@ def laundry_room():
     elif choice == "kitchen":
         kitchen()
     else:
-        print "It's simple."
-        print "Either go outside to the covered patio or back to the kitchen."
-        print "Try again (patio/kitchen)"
+        print "\n"
+        print "It's simple\n"
+        print "Either go outside to the covered patio or back to the kitchen\n"
+        print "Try again (patio/kitchen)\n"
+        print "Press enter when you are ready.\n\n"
+        print "(Enter)\n\n"
+        raw_input("> ")
         laundry_room()
 
 
 def bathroom():
     os.system("cls"), logo()
-    print ""
-    print "Yup, it's a bathroom."
-    print "There is piss on the ground from Jack."
-    print "You can stop here and rest or go back to the hallway."
-    print "Press Enter when you are ready."
-    print ""
-    print "(Enter)"
+    print "\n"
+    print "Yup, it's a bathroom.\n"
+    print "There is piss on the ground from Jack.\n"
+    print "You can stop here and rest or go back to the hallway.\n"
+    print "Press enter when you are ready.\n\n"
+    print "(Enter)\n\n"
     raw_input("> ")
     hallway()
 
 def kitchen():
     os.system("cls"), logo()
-    print ""
-    print "The kitchen is kinda small but it's got everything you need."
-    print "From here you can see the laundry room and the front door in the family room to the right."
-    print "Enter the laundry room, front door in the family room or the hallway? "
-    print ""
-    print "(laundry/door/hallway)"
-
-    print ""
+    print "\n"
+    print "The kitchen is kinda small but it's got everything you needn"
+    print "From here you can see the laundry room and the front door in the family room to the right.\n"
+    print "Enter the laundry room, front door in the family room or the hallway.\n\n"
+    print "(laundry/door/hallway)\n\n"
     choice = raw_input("> ")
 
     if choice == "laundry":
@@ -148,9 +145,12 @@ def kitchen():
     elif choice == "hallway":
         hallway()
     else:
-        print "Please choose one of these: (laundry/door/hallway)"
+        print "\n"
+        print "Please choose one of these: (laundry/door/hallway)\n"
+        print "Press enter when you are ready.\n\n"
+        print "(Enter)\n\n"
+        raw_input("> ")
         kitchen()
-
 
 def front_yard():
     os.system("cls"), logo()
