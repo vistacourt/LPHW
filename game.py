@@ -209,7 +209,7 @@ def  hallway():
 def side_house():
     os.system("cls")
     print ""
-    print "you are outside on the side of the house."
+    print "You are outside on the side of the house."
     print "there is an air conditioning unit and an old meat smoker here."
     print "You can walk around the hedges to the front yard or go back in the window that Tess fixed once."
     print "Which way? "
@@ -265,11 +265,16 @@ def start():
     os.system("cls")
     print""
     print "You are chilling out at home, laying on your bed."
+    print""
     print "The Bravo Network is on TV."
+    print""
     print "You're husband, Tom, is next to you on the bed programming on " \
           "his computer as usual."
+    print""
     print "There are three puppies on the bed: Jill, Jack and Jet."
+    print""
     print "The fourth puppy, Dodo, is missing!"
+    print""
     print "Do you want to get up and find her? "
     print ""
     print "(y/n)"
