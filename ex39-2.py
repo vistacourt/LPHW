@@ -1,36 +1,35 @@
 # 2016 vistacourt software
 # tom kelly
 
-states = {
-    'Oregon': 'OR',
-    'Florida': 'FL',
-    'California': 'CA',
-    'New York': 'NY',
-    'Michigan': 'MI',
-    'Texas': 'TX'
+names = {
+    'Tom Kelly': 'TK',
+    'Tessie Zimmerman': 'TZ',
+    'Zack Zimmerman': 'ZZ',
 }
-cities = {
-    'CA': 'San Francisco',
-    'MI': 'Detroit',
-    'FL': 'Jacksonville',
-    'NY': 'New York',
-    'OR': 'Portland',
-    'TX': 'Texas'
+
+birthday = {
+    'TK': '02/23/1969',
+    'TZ': '09/7/1965',
+    'ZZ': '11/06/1995'
 }
 
 
 
 print '-' * 10
-print "NY State has: ", cities['NY']
-print "OR State has: ", cities['OR']
+print "TK's birthday is: ", birthday['TK']
+print "TZ's birthday is: ", birthday['TZ']
+print "ZZ's birthday is: ", birthday['ZZ']
 
 print '-' * 10
-print "Michigan's abbreviation is: ", states['Michigan']
-print "Florida's abbreviation is: ", states['Florida']
+print "Tom Kelly's initials are: ", names['Tom Kelly']
+print "Tessie Zimmerman's initials are: ", names['Tessie Zimmerman']
+print "Zack Zimmerman's initials are: ", names['Zack Zimmerman']
 
 print '-' * 10
-print "Michigan has: ", cities[states['Michigan']]
-print "Cali has: ", cities[states['California']]
+print "Tom Kelly's burthday is: ", birthday[names['Tom Kelly']]
+print "Tessie Zimmerman's birthday is: ", birthday[names['Tessie Zimmerman']]
+print "Zack Zimmerman's birthday is: ", birthday[names['Zack Zimmerman']]
+
 
 print '-' * 10
 for state, abbrev in states.items():
